@@ -1,0 +1,34 @@
+/* per chiamare le classi si usa il punto */
+/* per gli id si usa # */
+
+.quadrato {
+    width: 100px; /* larghezza */
+    height: 100px; /* altezza */
+    background-color: red; /* colore di sfondo */
+}
+
+.testo {
+    color: blue; /* cambio il colore */
+    font-size: 40px; /* cambio dimensione */
+    font-style: italic; /* metto in corsivo */
+    font-weight: 800; /* metto in grassetto */
+}
+
+/* personalizzo il pulsante  */
+.pulsante {
+    background-color: cadetblue;
+    /* con padding metto spazio tra scritte e sfondo  */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* per fare delle cose quando passo sopra con il mouse si usa :hover  */
+/* prima metto l'elemento e poi attacco :hover   */
+.pulsante:hover {
+    background-color: red;
+    /* per mettere il cursore puntatore  */
+    cursor: pointer;
+}
+
