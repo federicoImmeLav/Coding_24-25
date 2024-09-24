@@ -1,0 +1,31 @@
+#quadrato1 {
+    width: 100px; /*larghezza*/
+    height: 100px; /*altezza*/
+    background-color: red; /*colore di sfondo*/
+    /*se non specifico si posiziona in alto a sinistra*/
+}
+
+#quadrato2 {
+    width: 100px; /*larghezza*/
+    height: 100px; /*altezza*/
+    background-color: blue; /*colore di sfondo*/
+    /* cambio il tipo di posizione che usa l'elemento */
+    position: absolute; /*decido io la posizione*/
+    /* adesso devo dire le coordinate della posizione */
+    /* le coordinate si esprimo in distanza dai bordi  */
+    left:90%; /*distanza da sinistra*/
+    top: 5%; /*distanza da sopra*/
+    
+}
+
+#rettangolo1 {
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* devo cambiare il punto in cui prendo in considerazione il rettangolo
+    devo quindi spostare il centro */
+    transform: translate(-50%, -50%); /*traslo in centro il rettangolo*/
+}

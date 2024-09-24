@@ -1,0 +1,7 @@
+/* per chiamare gli id si usa #  */
+/* la parentesi graffa si fa con altgr + shift + è */
+#rosso {
+    color:red; /*colore del testo*/
+    font-family: monospace; /*cambio il tipo di font*/
+    font-size: x-large; /*cambio la dimensione del font*/
+}
