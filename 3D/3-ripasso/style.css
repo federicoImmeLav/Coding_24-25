@@ -1,0 +1,59 @@
+
+/* senza punto o # perchè chiamo direttamente l'elemento  */
+body {
+    margin: 0;
+}
+
+header {
+    background-color: blue; /* colore di sfondo */
+    height: 50px; /*altezza*/
+    display: flex; /*cambio il tipo di posizionamento*/
+    align-items: center; /*posizionamento verticale*/
+    justify-content: end; /*posizionamento orizzontale*/
+    /* rendo la barra fissa quando scrollo  */
+    position: sticky; /*appiccicati al sopra della pagina*/
+    top: 0;
+}
+
+/* per chiamare le classi si usa il punto  */
+.pulsante {
+    background-color: aqua;
+    /* spazio tra elemento e il suo bordo  */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* cambio font  */
+    font-family: monospace;
+    cursor: pointer; /*cambio il mouse quando vado sopra*/
+    margin: 10px; /*distanza fuori dagli elementi*/
+}
+
+/* per chiamare gli id si usa # */
+#registrati {
+    background-color: blue;
+    border: 2px solid aqua; /*comando per il bordo*/
+    /* px è per lo spessore, solid per il tipo, aqua è il colore  */
+    /* colore della scritta  */
+    color: aqua;
+}
+
+h1 {
+    margin:0; /*Elimino tutti i margini di h1*/
+    font-family: monospace;
+    font-size:xx-large; /*cambio la dimensione del testo*/
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* personalizzo la sezione intro */
+.intro {
+    background-color: beige;
+    /* con vh intendo la dimensione della pagina e il numero indica quanta pagina 
+    sto considerando */
+    height: 100vh;
+    /* posizioniamo il tutto in mezzo  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
