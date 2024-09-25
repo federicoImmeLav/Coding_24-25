@@ -1,0 +1,71 @@
+/* chiamo gli id usando #  */
+body {
+    margin:30px; /*margine a tutto il sito*/
+}
+/* faccio un quadrato rosso */
+#quadrato {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+/* definisco il contenitore  */
+#contenitore1 {
+    width: 100%; /* larghezza di tutta la pagina */
+    height: 200px;
+    /* comando per il bordo, il primo è lo spessore, il secondo il tipo e il terzo il colore  */
+    border: 1px solid black;
+    /* posizionamento a quello che sta dentro al contenitore */
+    display: flex; /*cambio il tipo di posizionamento*/
+    /* indico dove vanno posizionate le cose al suo interno */
+    justify-content: center; /*posizionamento orizzontale*/
+    align-items: center; /* posizionamento verticale */
+}
+
+#contenitore2 {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 30px; /*margine per distanziare da quello sopra*/
+    display: flex; /*cambio il posizionamento*/
+    align-items: center;
+    justify-content: space-around; /*posiziono gli elementi in tutto lo spazio che hanno a disposizione*/
+}
+
+#contenitoreImmagine {
+    width: 100%;
+    display: flex;
+    justify-content: center; /*in mezzo in orizzontale*/
+    margin-top: 30px;
+}
+
+#immagine1 {
+    width: 100%; /*imposto la larghezza dell'immmagine in modo che occupi tutta la pagina*/
+}
+
+#contenitore3 {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 30px;
+    /* imposto tutto al centro  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cerchio {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%; /*per fare un cerchio arrotondo i bordi di un quadrato*/
+}
+
+/* con il css posso far succedere delle cose agli elementi quando passo sopra con il mouse  */
+/* devo impostare una proprietà che agisce sul id usando :hover  */
+#cerchio:hover {
+    background-color: lightcoral; /*cambio il colore del cerchio*/
+    transition: 0.5s; /* il cambiamento avviene in mezzo secondo */
+    cursor: pointer; /*cambio il puntatore quando vado sopra*/
+}
+
