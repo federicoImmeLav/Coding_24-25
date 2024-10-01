@@ -9,10 +9,12 @@ header {
     height: 50px; /*altezza*/
     display: flex; /*cambio il tipo di posizionamento*/
     align-items: center; /*posizionamento verticale*/
-    justify-content: end; /*posizionamento orizzontale*/
+    justify-content: space-between; /*posizionamento orizzontale*/
     /* rendo la barra fissa quando scrollo  */
     position: sticky; /*appiccicati al sopra della pagina*/
     top: 0;
+    /* aggiungo dello spazio a sinistra tra logo e bordo  */
+    padding-left: 20px;
 }
 
 /* per chiamare le classi si usa il punto  */
@@ -56,4 +58,51 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.dueColonne {
+    /* posiziono ciò che sta dentro a questo div in orizzontale  */
+    display: flex;
+}
+
+/* specifico la larghezza di colonna sx e dx  */
+.colonnaSx {
+    width: 70%; /*larga il 70% della pagina*/
+    padding: 50px; 
+}
+.colonnaDx {
+    width: 30%;
+    padding: 30px; 
+}
+
+/* imposto la dimensione dell'immagine automatica  */
+.albania {
+    width: 100%;
+}
+
+/* imposto dello spazio intorno al sottotitolo  */
+.sottotitolo {
+    padding-left: 50px;
+    padding-top: 50px;
+    font-family: monospace;
+}
+
+p {
+    font-family: monospace; /*font del testo uguale al resto del sito*/
+}
+
+.quattroColonne {
+    display: flex; /* imposto le colonne una di fianco all'altra */
+}
+
+.colonnaFooter {
+    /* per essere 4 devono dividersi lo spazio in parti uguali*/
+    width: 25%; /* 100 diviso 4 fa 25*/
+    text-align: center; /*imposto il testo in centro*/
+}
+
+/* metto un colore di sfondo al footer  */
+footer {
+    background-color: lightseagreen;
+    padding: 30px;
 }
