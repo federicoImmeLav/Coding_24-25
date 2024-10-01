@@ -1,0 +1,76 @@
+/* le classi si chiamano con il punto, gli id con #  */
+
+body {
+    font-family: monospace; /*cambio il font a tutto il sito*/
+    margin: 0; /*imposto la pagina senza margini*/
+}
+
+/* personalizzo header sia per margini e spazi che per posizioni  */
+header {
+    padding: 30px; /*imposto dello spazio intorno nell'header */
+    /* imposto il posizionamento intelligente di tutto l'header  */
+    display: flex;
+    align-items: center; /*centrato verticalmente*/
+    justify-content: space-between; /*distribuito in orizzontale*/
+    border-bottom: 0.5px solid darkslategray; /*bordo inferiore a header*/
+    background-color: white;
+    /* imposto header in modo tale che non scorra quando scrollo la pagina  */
+    position: sticky; /*posizione che si ferma in un punto*/
+    top:0; /*dove si ferma l'elemento*/
+}
+
+.logo {
+    /* imposto la dimensione del logo  */
+    width: 8%;
+}
+
+.accedi {
+    border: 1px solid black;
+    /* lo spazio tra l'elemento e il suo bordo si chiama padding  */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ /* imposto il tasto con i colori opposti a accedi  */
+.registrati {
+    background-color: black;
+    color: white; /*colore del testo*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* imposto la prima sezione con il titolo in mezzo e grande  */
+.primaSezione {
+    text-align: center; /*centro il testo*/
+    height: 90vh; /*altezza uguale al 90% della pagina*/
+    /* centro la scritta nel contenitore */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* imposto il contenitore delle colonne in modo tale che distribuisca le colonne una  */
+/* a fianco all'altra  */
+.colonne {
+    display: flex;
+    padding: 50px; /*spazio intorno alle colonne*/
+}
+
+/* imposto la larghezza delle colonne al 50% della pagina */
+.colonnaSx {
+    width: 50%;
+    padding-right: 150px;
+}
+
+.colonnaDx {
+    width: 50%;
+}
+
+/* imposto l'immagine in modo tale che occupi solo la colonna di destra  */
+.excel {
+    width: 50%;
+}
