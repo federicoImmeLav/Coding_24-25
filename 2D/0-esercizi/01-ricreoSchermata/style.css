@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold; /*metto tutto in grassetto*/
+}
+
+.quadrato {
+    width: 50px; /*larghezza*/
+    height: 50px; /*altezza*/
+    background-color: gray; /*colore di sfondo*/
+}
+
+.pulsante {
+    background-color: black;
+    color: white;
+    /*aggiungo lo spazio sopra e sotto e destra e sinistra al pulsante*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px; /*arrotondo gli angoli del bottone*/
+}
+
+header {
+    /*dispongo gli elementi nell'header*/
+    display: flex;
+    justify-content: space-between; /*allineamento orizzontale*/
+    align-items: center; /*allineamento verticale*/
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.intro {
+    /*comandi per centrare il contenuto di intro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*cambio l'altezza della sezione intro*/
+    height: 90vh; /*vh sta per percentuale della pagina*/
+    text-align: center; /*centro tutti i testi nei loro contenitori*/
+}   
+
+.elementi {
+    /*distanzio gli elementi centrali in alto*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* per animare un elemento quanto ci vado sopra con il mouse si usa :hover  */
+.pulsante:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black; /*bordo nero*/
+    cursor: pointer; /*cambio tipo di cursore*/
+}
+
+.sezione2 {
+    height: 50vh;
+}
+
+.cerchio {
+    height: 100px; 
+    width: 100px;
+    background-color: red;
+    border-radius: 50%; /*stondo i bordi per fare un cerchio*/
+    position: relative; /*posiziono un elemento rispetto a un altro contenitore*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: muoviti 4s infinite; /*assegno l'animazione definita*/
+}
+
+/* definisco animazione per il cerchio  */
+@keyframes muoviti {
+    0%{left: 50%;}
+    33%{left:5%;}
+    66%{left:95%;}
+    100%{left:50%;}
+}
+
