@@ -1,0 +1,71 @@
+body {
+    margin: 0; /*tolgo tutti i margini automatici al body*/
+}
+
+/* faccio il posizionamento dell'header  */
+#menu {
+    display: flex; /*allineo in orizzontale*/
+    justify-content: center; /*distribuisco su tutto lo spazio*/
+    align-items: center;
+    height: 7vh; /*altezza in percentuale sulla schermata*/
+    background-color:#1d1d1f;
+}
+
+/* chiamo tutti i button che stanno dentro al div che ha come id menu  */
+#menu > button {
+    background-color: #1d1d1f;
+    border: none; /*nessun bordo*/
+    color:rgba(255, 255, 255, .8); /*colore delle scritte*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* distanzio tutto con il padding a destra e sinistra  */
+#menu > svg {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu > img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* imposto l'immagine come sfondo della prima sezione  */
+#primaSezione {
+    background-image: url("./img/iphone16.png");
+    /* imposto una altezza per la sezione */
+    height: 90vh;
+    /* imposto l'immagine come cover dell'intera sezione */
+    background-size: cover;
+    background-repeat: no-repeat; /*immagine non si ripete*/
+}
+
+/* personalizzo i pulsanti  */
+#pulsantiBlu {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.scopri {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+.acquista {
+    color: blue;
+    background-color: none;
+    border: 1px solid blue;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}

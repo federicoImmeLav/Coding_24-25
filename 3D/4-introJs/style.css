@@ -1,0 +1,20 @@
+.schermata {
+    height: 100vh; /*alto come tutta la pagina*/
+    background-color: peachpuff;
+    /*metto i comandi per centrare quello che c'è dentro al div*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paragrafo {
+    text-align: center; /*allineo il testo sulla riga*/
+}
+
+header {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
