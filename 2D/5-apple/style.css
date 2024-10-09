@@ -2,6 +2,12 @@ body {
     margin: 0; /*tolgo tutti i margini automatici al body*/
 }
 
+ /*imposto header che sta fisso sopra*/
+header {
+    position: sticky;
+    top: 0;
+}
+
 /* faccio il posizionamento dell'header  */
 #menu {
     display: flex; /*allineo in orizzontale*/
@@ -39,19 +45,36 @@ body {
     /* imposto l'immagine come cover dell'intera sezione */
     background-size: cover;
     background-repeat: no-repeat; /*immagine non si ripete*/
+    display: flex;
+    align-items: end; /*end significa in fondo, quindi stanno sotto nella schermata*/
+    justify-content: center;
+    padding-bottom: 5vh; /*spazio sotto tra i pulsanti e la fine dell'immagine*/
 }
 
 /* personalizzo i pulsanti  */
 #pulsantiBlu {
     font-family: sans-serif;
+    /*posiziono i pulsanti in mezzo*/
     display: flex;
     justify-content: center;
 }
 
 .scopri {
     color: white;
-    background-color: blue;
-    border: 1px solid blue;
+    background-color: #0071e3;
+    border: 1px solid #0071e3;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-right: 20px; /*distanzio i due pulsanti*/
+}
+
+.acquista {
+    color: #0071e3;
+    background-color: none;
+    border: 1px solid #0071e3;
     padding-left: 20px;
     padding-right:20px;
     padding-top: 10px;
@@ -59,13 +82,56 @@ body {
     border-radius: 30px;
 }
 
-.acquista {
-    color: blue;
-    background-color: none;
-    border: 1px solid blue;
-    padding-left: 20px;
-    padding-right:20px;
+/* :hover serve a far succedere delle cose con il css quando vado sopra con il mouse  */
+.acquista:hover {
+    background-color: #0071e3;
+    color: white;
+    cursor: pointer;
+}
+
+#titoloProdotto {
+    color: white;
+    font-family: sans-serif;
+    font-size: 70px;
+    /*posiziono la scritta con position absolute perchè è un singolo elemento nella pagina*/
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* proprietà del banner  */
+#banner {
+    background-color: #161617;
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 30px;
+}
+/* personalizzo il paragrafo dentro al banner  */
+p {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+/* cambio colore e sottolineatura del link  */
+#shop {
+    color: #0071e3;
+    /* tolgo la sottolineatura */
+    text-decoration: none;
+}
+
+#secondaSezione {
+    background-image: url("./img/iphone16blu.png");
+    /* imposto una altezza per la sezione */
+    height: 100vh;
+    /* imposto l'immagine come cover dell'intera sezione */
+    background-size: cover;
+    background-repeat: no-repeat; /*immagine non si ripete*/
+    display: flex;
+    align-items: end; /*end significa in fondo, quindi stanno sotto nella schermata*/
+    justify-content: center;
+    padding-bottom: 5vh; /*spazio sotto tra i pulsanti e la fine dell'immagine*/
+    margin-top: 20px; /*spazio tra una sezione l'altra*/
 }
