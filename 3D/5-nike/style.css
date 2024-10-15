@@ -1,0 +1,74 @@
+body {
+    margin: 0; /*tolgo tutti i margini automatici dal sito*/
+    font-family: sans-serif;
+}
+
+#primaFascia {
+    display: flex;
+    /* allineo in orizzontale le cose  */
+    justify-content: space-between; /*gli elementi sono distanziati in tutto lo spazio che hanno a disposizione*/
+    background-color: #F5F5F5;
+    /*metto dello spazio tutto intorno*/
+    padding: 10px;
+}
+
+/*imposto i bottoni senza sfondo e bordo*/
+button {
+    border: none;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#secondaFascia {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* seleziono tutti i bottoni all'interno di menu  */
+#menu > button {
+    background-color: white;
+}
+
+#terzaFascia {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+}
+
+/* imposto immagine di cover e dimensioni e posizionamento  */
+#cover {
+    background-image: url("./img/cover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 20px;
+    display: flex;
+    align-items: end; /*metto la scritta in basso*/
+}
+
+#titoloCover {
+    color: white;
+    font-size: xx-large;
+}
+
+#contenitoreProdotto {
+    color: white;
+    padding-left: 20px;
+}

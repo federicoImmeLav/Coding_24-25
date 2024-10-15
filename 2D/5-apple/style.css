@@ -114,7 +114,7 @@ p {
     font-family: sans-serif;
     font-size: 12px;
 }
-
+ 
 /* cambio colore e sottolineatura del link  */
 #shop {
     color: #0071e3;
@@ -134,4 +134,44 @@ p {
     justify-content: center;
     padding-bottom: 5vh; /*spazio sotto tra i pulsanti e la fine dell'immagine*/
     margin-top: 20px; /*spazio tra una sezione l'altra*/
+}
+
+#fasciaImmagine {
+    background-image: url("./img/watch.jpg");
+    height: 50vh;
+    /* imposto l'immagine come cover dell'intera sezione */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; /*immagine non si ripete*/
+}
+
+h3 {
+    text-align: center; /*imposto il testo centrale*/
+    font-weight: lighter; /*tolgo il grassetto*/
+    font-family: sans-serif;
+}
+
+#fasciaPulsanti {
+    display: flex;
+    justify-content: center;
+}
+
+#terzaSezione {
+    background-color: #f5f5f7;
+}
+
+#quartaSezione {
+    display: flex;
+}
+
+#sezioneSx {
+    background-color: red;
+    height: 40vh;
+    width: 50%; /*imposto la sezione larga come metà dello schermo*/
+}
+
+#sezioneDx {
+    background-color: green;
+    height: 40vh;
+    width: 50%; /*imposto la sezione larga come metà dello schermo*/
 }
