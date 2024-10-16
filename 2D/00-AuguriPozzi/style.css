@@ -66,4 +66,17 @@ p {
 
 .button:hover {
     background-color: #ff4500;
+}   
+
+
+ /* Stile di base per desktop */
+ .container {
+    width: 100%;
+}
+
+/* Stile per schermi piccoli (mobile) */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 65%;
+    }
 }
