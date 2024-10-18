@@ -165,13 +165,27 @@ h3 {
 }
 
 #sezioneSx {
-    background-color: red;
-    height: 40vh;
+    /* imposto immagine di sfondo centrata e tutta nella sezione  */
+    background-image: url("./img/macbook_air.png");
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 80vh;
     width: 50%; /*imposto la sezione larga come metà dello schermo*/
+    margin: 5px;
 }
 
 #sezioneDx {
-    background-color: green;
-    height: 40vh;
+    background-image: url("./img/ipad-pro.jfif");
+    background-color: #f5f5f7;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 80vh;
     width: 50%; /*imposto la sezione larga come metà dello schermo*/
-}
+    margin: 5px;
+} 
+
+
+
