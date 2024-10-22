@@ -71,4 +71,33 @@ a {
 #contenitoreProdotto {
     color: white;
     padding-left: 20px;
+} 
+
+/* imposto una altezza alla sezione carosello  */
+#sezCarosello {
+    height: 80vh;
+    padding-top: 5vh;
 }
+
+/* imposto i comandi del carosello in una riga  */
+#comandi {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* seleziono tutte le immagini nel div  */
+#immaginiCarosello > img {
+    width: 400px;
+    margin-left: 50px;
+}
+
+/* cambio quando vado con hover  */
+#immaginiCarosello > img:hover {
+    opacity: 0.5;
+}
+
+#immaginiCarosello {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
