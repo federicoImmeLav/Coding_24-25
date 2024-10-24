@@ -1,0 +1,49 @@
+/* chiamo il paragrafo con il suo nome  */
+/* le caratteristiche css degli elementi vanno scritte dentro alle parentesi graffe  */
+p {
+    /* cambio colore del testo  */
+    color:red;
+}
+/* si scrive sempre il nome della proprietà seguito dai due punti e alla fine il punto e virgola  */
+
+/* per chiamare gli id si usa # */
+#quadrato {
+    /* assegno al quadrato una altezza e una larghezza */
+    height: 100px; /*altezza*/
+    width: 100px; /*larghezza*/
+    background-color: blue; /*colore di sfondo*/
+    /* definire il tipo di posizione */
+    position: absolute;
+    /* metto le distanze dall'alto e da sinistra  */
+    left:80%; /*distanza da sinistra*/
+    top:80%; /*distanza da sopra*/
+}
+/* descrivo quadrato 2  */
+#quadrato2 {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* per centrare l'elemento non rispetto all'angolo ma rispetto al centro si usa:  */
+    transform: translate(-50%,-50%);
+}
+
+#cerchio {
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    /* far diventare tondi gli spigoli  */
+    border-radius:50%; /*gli spigoli diventano tondi*/
+    position: absolute;
+    top:65%;
+    left: 20%;
+}
+
+#rettangolo {
+    height: 70px;
+    width: 250px;
+    background-color: salmon;
+    border-radius: 20px;
+}
