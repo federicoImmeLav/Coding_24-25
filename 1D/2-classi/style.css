@@ -1,0 +1,42 @@
+#quadrato {
+    height: 100px;
+    width: 100px;
+}
+
+#rettangolo {
+    height: 100px;
+    width: 300px;
+}
+
+/* per chiamare le classi si usa il punto  */
+.rosso {
+   background-color: red; 
+}
+.verde {
+    background-color: green;
+}
+.viola {
+    background-color: purple;
+}
+
+.posizioneDx {
+    position: absolute;
+    top: 50%; /*distanza da sopra*/
+    left: 75%; /*distanza da sinistra*/
+}
+
+.margini {
+    /* metto un bordo al quadrato */
+    /* prima si dice lo spessore, poi il tipo e poi il colore  */
+    border: 5px solid black;
+    /* metto un margine al quadrato  */
+    margin: 20px;
+    /* il padding è lo spazio tra l'elemento e il bordo  */
+    padding: 20px;
+}
+
+/* il margine è lo spazio con l'esterno degli elementi 
+mentre il padding è lo spazio tra l'elemento e il suo bordo */
+
+
+
