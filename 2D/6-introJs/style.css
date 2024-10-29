@@ -1,0 +1,16 @@
+/* faccio un quadrato rosso  */
+#prova {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#cerchio {
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    border-radius: 50%;
+}

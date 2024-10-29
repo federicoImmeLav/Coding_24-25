@@ -1,0 +1,31 @@
+body {
+    /* tolgo tutti i margini al body  */
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgrey;
+    padding: 15px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+#fascia {
+    background-color: peachpuff;
+    /* imposto una larghezza  */
+    width: 15%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    /* imposto in verticale le cose dentro a fascia  */
+    flex-direction: column;
+    /* imposto la posizione fissa della fascia del menu  */
+    position: fixed;
+    top: 0;
+    left: -20%;
+}
