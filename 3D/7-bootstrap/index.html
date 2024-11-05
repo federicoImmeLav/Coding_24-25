@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- il link allo style va messo in fondo a head  -->
+    <link rel="stylesheet" href="./style.css">
+   </head>
+
+  <body>
+
+    <!-- prendo una navbar dal sito e la incollo qui così com'è  -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">Navbar</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+    <!-- si crea prima il contenitore  -->
+    <div class="container">
+        <!-- si crea un div che sarà la riga della mia griglia  -->
+        <div class="row">
+            <!-- creo le colonne dentro alla riga  -->
+            <div class="col">
+                Colonna 1
+            </div>
+            <div class="col">
+                Colonna 2
+            </div>
+            <div class="col">
+                Colonna 3
+            </div>
+            <div class="col">
+                Colonna 4
+            </div>
+        </div>
+    </div>
+
+    <!-- creo un altro container con larghezze decise da me  -->
+     <div class="container">
+        <div class="row">
+            <!-- per decidere la larghezza delle colonne si usa un numero da 1 a 12  -->
+             <div class="col-4 sfondo">
+                Colonna larga 4
+             </div>
+             <div class="col-6 sfondo">
+                Colonna larga 6
+             </div>
+             <div class="col-2 sfondo">
+                <p class="display-6">Colonna larga 2</p>
+             </div>
+        </div>
+     </div>
+     <!-- classe per centrare il contenuto  -->
+     <p class="text-center">Testo a caso per capire qualcosa</p>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

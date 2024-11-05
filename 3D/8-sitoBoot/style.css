@@ -1,0 +1,12 @@
+/* sistemo il css per i bottoni  */
+.btn {
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: smaller;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+    
