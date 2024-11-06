@@ -13,9 +13,25 @@
     border: 2px solid seagreen;
     margin: 5px;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-#pulsanti, #fine  {
+#pulsanti  {
+    width: 40%;
+    height: 5vh;
+    border: 3px solid cadetblue;
+    /* con margin auto si mette in centro  */
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fine {
     width: 40%;
     height: 5vh;
     border: 3px solid cadetblue;
@@ -27,4 +43,26 @@
     align-items: center;
 }
 
+/* centro il testo nei campi di input  */
+input {
+    text-align: center;
+}
 
+/* imposto il div cronologia con lo stesso stile degli altri riquadri  */
+#cronologia {
+    width: 40%;
+    height: 15vh;
+    border: 3px solid cadetblue;
+    /* con margin auto si mette in centro  */
+    margin: auto;
+    margin-top: 5px; 
+    /* rendo scrollabile il riquadro in cui compaiono le operazioni  */
+    overflow-y: scroll; 
+}
+
+p {
+    margin-top:3px; 
+    margin-bottom: 3px;
+    font-size: small;
+    text-align: center;
+}
