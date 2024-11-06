@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- inserisco un campo di input  -->
+        prova: <input type="text" id="casella">
+        <p>clicca il seguente pulsante per cambiare il testo</p>
+        <!-- metto un pulsante che farà succedere delle cose quando lo clicco  -->
+        <!-- diciamo al pulsante che quando clicco si accende la funzione  -->
+        <button onclick="cambiaTesto()">Cliccami</button>
+        <!-- riga di separazione -->
+        <hr>
+        <!-- creo la calcolatrice -->
+         <div id="calcolatrice">
+            <!-- creo due div per fare due colonne  -->
+             <!-- dentro a sx e dx creo un campo di input nel quale scrivere i numeri  -->
+            <div id="sx">
+                <div>
+                    <p>primo numero</p>
+                    <input type="number" id="numero1">
+                </div>
+            </div>
+            <div id="dx">
+                <div>
+                    <p>secondo numero</p>
+                    <input type="number" id="numero2">
+                </div>
+            </div>
+         </div>
+         <div id="pulsanti">
+            <button onclick="somma()">+</button>
+         </div>
+
+         <!-- creo un div nel quale mettere il risultato  -->
+         <div id="fine">
+            <input id="risultato"></p>
+         </div>
+
+        <!-- script si mette sempre in fondo al body  -->
+        <script src="./script.js"></script>
+    </body>
+</html>

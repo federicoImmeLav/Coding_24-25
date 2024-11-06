@@ -1,0 +1,30 @@
+#calcolatrice {
+    width: 40%;
+    height: 45vh;
+    border: 3px solid cadetblue;
+    /* con margin auto si mette in centro  */
+    margin: auto;
+    display: flex;
+}
+/* imposto destra e sinistra con dimensioni e colori  */
+#sx , #dx {
+    width: 50%;
+    height: 80%;
+    border: 2px solid seagreen;
+    margin: 5px;
+    padding: 5px;
+}
+
+#pulsanti, #fine  {
+    width: 40%;
+    height: 5vh;
+    border: 3px solid cadetblue;
+    /* con margin auto si mette in centro  */
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
