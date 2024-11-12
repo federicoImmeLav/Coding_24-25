@@ -1,0 +1,49 @@
+/* per chiamare una classe si usa il punto  */
+.quadrato {
+    width: 100px; /*larghezza*/
+    height: 100px; /*altezza*/
+    background-color: blue; /*colore di sfondo*/
+    /* bordo, la prima indica lo spessore, la seconda 
+    il tipo e la terza il colore */
+    border: 3px solid red;
+    padding: 100px; /*spazio all'interno del bordo*/
+    margin: 100px;/* spazio fuori dal bordo */
+    border-radius: 20px; /* arrotondo gli angoli */
+}
+
+.testo {
+    /* per cambiare il colore del testo si usa color  */
+    color: peru;
+    /* per allineare il testo */
+    text-align: center;
+    font-size: 40px; /* dimensione del testo */
+    font-weight: bolder; /* spessore del testo */
+    /* carattere che può essere monspace, 
+    serif o sans-serif */
+    font-family: monospace;
+    text-decoration: underline; /*per sottolineare*/
+}
+
+.spiegazione {
+    background-color: lightblue;
+    /* altezza in percentuale sulla pagina  */
+    height: 100vh;
+}
+
+.primo {
+    border: 1px solid black;
+    height: 80px;
+    display: flex; /* posizionamento smart */
+    justify-content: center; /* allineamento  orizzontale*/
+    align-items: center; /* allineamento verticale  */
+}
+
+.secondo {
+    border: 1px solid black;
+    height: 80px;
+    margin-top: 20px; /* distanza da sopra */
+    display: flex;
+    align-items: center;
+    /* distribuisce in modo omogeneo gli elementi  */
+    justify-content: space-around;
+}
