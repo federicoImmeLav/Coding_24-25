@@ -1,0 +1,11 @@
+/* per chiamare un elemento con il suo nome e non con la classe
+si scrive solo il suo nome */
+header {
+    background-color: darkolivegreen;
+    height: 8vh; /* altezza uguale a 8% della pagina */
+}
+
+/* imposto le dimensioni del logo  */
+.logo {
+    width: 150px;
+}

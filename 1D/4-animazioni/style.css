@@ -1,0 +1,63 @@
+.quadrato {
+    height: 100px; /* altezza */
+    width: 100px; /* larghezza */
+    background-color: red; /* colore di sfondo */
+    /* assegno l'animazione  */
+    animation: cambioColore 2s infinite;
+    /* si mette il nome dell'animazione, poi la durata 
+    e ogni quanto deve succedere */
+}
+
+/* definisco una animazione  */
+/* per definire una animazione devo scrivere 
+dopo keyframes il nome che sceglio io */
+@keyframes cambioColore {
+    /* devo dire a che punto 
+    dell'animazione succedono le cose  */
+    0% {background-color: red;} /* situazione iniziale */
+    25% {background-color: blue;} 
+    50% {background-color: chocolate;}
+    75% {background-color: blueviolet;}
+    100% {background-color: red;}
+}
+/* una volta che ho definito l'animazione, 
+devo assegnarla all'elemento */
+
+.cerchio {
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+    /* per fare il cerchio devo arrotondare i bordi  */
+    border-radius: 50%;
+    margin-top: 40px; /* spazio sopra */
+    /* quando si usa top o left bisogna 
+    sempre usare anche position absolute */
+    position: absolute; 
+    animation: muovi 2s infinite;
+}
+
+/* definisco l'animazione per far muovere il cerchio  */
+@keyframes muovi {
+    /* posso mettere tutte le proprietà che voglio */
+    0% {
+        left: 0%;
+        width: 100px;
+    }
+    50% {
+        left: 80%;
+        width: 200px;
+    }
+    100% {
+        left: 0%;
+        width: 100px;
+    }
+}
+
+/* personalizzo con il css l'immagine  */
+.foto {
+    /* le proprietà css valgono anche per l'immagine */
+    width: 300px;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
