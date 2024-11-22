@@ -14,5 +14,35 @@
                 <a href="./contatti.html">Contatti</a>
             </button>
         </header>
+
+        <div id="eventbrite-widget-container-1089672552939"></div>
+        
+
+        <form action="https://www.sandbox.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="WAAK4HMD92R5J" />
+            <input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Fai una donazione con il pulsante PayPal" />
+            <img alt="" border="0" src="https://www.sandbox.paypal.com/it_IT/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+            
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '1089672552939',
+        iframeContainerId: 'eventbrite-widget-container-1089672552939',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+
     </body>
 </html>

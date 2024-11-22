@@ -3,9 +3,73 @@ si scrive solo il suo nome */
 header {
     background-color: darkolivegreen;
     height: 8vh; /* altezza uguale a 8% della pagina */
+    /* posiziono le cose in mezzo  */
+    display: flex;
+    justify-content: center; /* centro in orizzontale */
+    align-items: center; /* centro in verticale */
 }
 
 /* imposto le dimensioni del logo  */
 .logo {
     width: 150px;
+}
+
+/* personalizzo fascia e paragrafo  */
+.fascia {
+    height: 4vh; /* altezza */
+    background-color: black; /* colore di sfondo */
+    /* centro il contenuto nella fascia  */
+    display: flex;
+    justify-content: center; /* centro in orizzontale */
+    align-items: center; /* centro in verticale */
+}
+
+.intro {
+    color: white; /* colore della scritta */
+    font-family: monospace; /* cambio il tipo di font */
+    text-align: center; /* allineo il testo in centro */
+}   
+
+p {
+    margin: 0; /* tolgo i margini ai paragrafi */
+}
+
+/* personalizzo la fascia dei pulsanti  */
+.pulsanti {
+    height: 6vh;
+    background-color: MediumSeaGreen;
+    /* posiziono i pulsanti distribuiti nello spazio  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* tutti con lo stesso spazio */
+}
+
+.benvenuto {
+    height: 82vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titolo {
+    font-family: monospace;
+}
+
+/* imposto la sezione kevin per essere divisa a metà  */
+.kevin {
+    display: flex;
+    /* con display flex i div stanno posizionati in orizzontale */
+}
+
+/* la larghezza dei due div deve essere della metà della pagina  */
+.sinistra {
+    width: 50%;
+}
+.destra {
+    width: 50%;
+}
+/* rimpicciolisco l'immagine  */
+.aeroporto {
+    width: 500px; /* larghezza */
 }
