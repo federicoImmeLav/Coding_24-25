@@ -1,0 +1,28 @@
+header {
+    background-color: olive; /* colore di sfondo */
+    /* metto il logo al centro  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fascia {
+    background-color: olivedrab;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contatti {
+    height: 80vh;
+    background-color: darkcyan;
+    display: flex;
+}
+.sx, .dx {
+    width: 50%;
+    border: 2px solid white;
+    margin: 20px;
+}
+
+

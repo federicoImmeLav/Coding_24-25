@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content: center; /* centro in orizzontale */
     align-items: center; /* centro in verticale */
-}
+} 
 
 /* imposto le dimensioni del logo  */
 .logo {
@@ -72,4 +72,40 @@ p {
 /* rimpicciolisco l'immagine  */
 .aeroporto {
     width: 500px; /* larghezza */
+}
+
+/* imposto una altezza e un colore di sfondo alla sezione */
+.matta {
+    background-color: forestgreen;
+    height: 50vh;
+    /* imposto le posizioni in mezzo  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emanuele {
+    /* inserisco un bordo al div  */
+    border: 2px solid white;
+    width: 45%; /* larghezza */
+    /* il margine è lo spazio esterno, il padding è lo spazio interno  */
+    padding: 40px;
+}
+
+.descrizione {
+    /* cambio colore del testo  */
+    color: aliceblue;
+    /* cambio il tipo di font  */
+    font-family: sans-serif;
+    font-size: large; /* cambio dimensione del testo */
+}
+
+.amir {
+    height: 100vh;
+    /* imposto immagine di sfondo  */
+    background-image: url("./img/amir.webp"); /* così carico l'immagine */
+    /* per evitare che si ripeta  */
+    background-repeat: no-repeat;
+    /* per mettere che sia grande come la sezione */
+    background-size: cover;
 }
