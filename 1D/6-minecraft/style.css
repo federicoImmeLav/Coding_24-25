@@ -1,0 +1,67 @@
+body {
+    /* tolgo il margine al sito  */
+    margin: 0;
+    font-family: monospace;
+}
+
+header {
+    display: flex;
+    align-items: center; /* allinea in verticale al centro */
+    justify-content: space-between; /* allineo in orizzontale */
+    background-color: #313131; /* colore di sfondo */
+    height: 8vh; /* altezza  */
+    padding-left: 7vh; /* spazio a sinistra */
+    padding-right: 7vh;/* spazio a destra */
+    /* imposto menu fisso quando scrollo  */
+    position: sticky;
+    top: 0;
+}
+
+/* personalizzo i pulsanti  */
+button {
+    border: none; /* tolgo il bordo */
+    background-color: transparent; /* tolgo il colore di sfondo */
+    color: white;
+    font-family: monospace;
+    font-weight: bold; /* grassetto */
+}
+/* per fare animazione con mouse sopra si usa :hover  */
+button:hover {
+    color: #87d462;
+    cursor: pointer; /* cambio cursore */
+}
+
+/* impostiamo immagine di sfondo di hero  */
+.hero {
+    background-image: url("./img/Homepage_Hero_HEGD-Extended-Activation_1920x1080.avif");
+    height: 92vh;
+    background-size: cover; /* immagine che occupa tutto lo spazio a disposizione */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.riquadri {
+    height: 40vh;
+    background-color: black;
+}
+
+h2 {
+    margin: 0;
+}
+
+.expect {
+    background-color: black;
+    width: 50vh;
+    color: white;
+    margin-left: 30vh;
+    position: absolute;
+    top: 90%;
+    padding: 30px;
+}
+
+/* per selezionare uno span dentro a un div specifico si usa >  */
+.pulsanti > span {
+    background-color: #87d462;
+    color: white;
+    padding: 8px;
+}

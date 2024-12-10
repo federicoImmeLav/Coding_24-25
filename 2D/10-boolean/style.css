@@ -1,0 +1,144 @@
+header {
+    /* distribuisco gli elementi in orizzontale e spaziati uguali */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* imposto altezza header  */
+    height: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+/* seleziono tutti i button dentro al div con classe menu  */
+.menu > button {
+    background-color: transparent; /* tolgo sfondo */
+    border: none; /* tolgo bordo */
+    font-weight: bold;
+}
+
+/* metto il cambiamento quando passo sopra con il mouse  */
+.menu > button:hover {
+    cursor: pointer; /* cursore diventa puntatore */
+    color: darkblue;
+}
+
+/* personalizzo il pulsante iscriviti  */
+#iscrivi {
+    color: white;
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.intro {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    padding-left: 40vh;
+    padding-right: 40vh;
+}
+
+.sx {
+    width: 50%;
+}
+.dx {
+    width: 50%;
+    height: 100%;
+    background-image: url("./img/hp-jumbo-img-desktop.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(0.7);
+}
+
+.pillola {
+    background-color: #d9ff66;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.scorrimento {
+    padding-left: 40vh;
+    padding-right: 40vh;
+}
+
+.corsi {
+    padding-left: 40vh;
+    padding-right: 40vh; 
+}
+
+.cardOrizz {
+    width: 100%;
+    display: flex;
+    border: 0.5px solid lightgray;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cardOrizz:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.imgSx {
+    width: 45%;
+    /* imposto immagine della card come sfondo  */
+    background-image: url("./img/fullstack_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    border-radius: 25px;
+}
+
+.testoDx {
+    width: 55%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.etichetta {
+    background-color: #d9ff66;
+    color: blue;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+    left: 3%;
+    font-weight: bolder;
+}
+
+/* chiamo tutti gli span che stanno dentro alla classe icone */
+.icone > span {
+    font-size: small;
+}
+
+h2 {
+    margin: 0;
+    color: blue;
+    font-size: 40px;
+}
+
+.pillola2 {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #e5efff;
+}
+
+.scopri {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
