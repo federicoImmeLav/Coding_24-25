@@ -39,7 +39,7 @@
 
         <!-- creo la sezione per le card  -->
         <section class="corsi">
-            <div class="cardOrizz">
+            <div class="cardOrizz" onmouseover="cerchio2()" onmouseout="cerchioPiccolo2()">
                 <div class="imgSx">
                     <span class="etichetta">FULL-TIME</span>
                 </div>
@@ -64,17 +64,52 @@
                     <div class="scopri">
                         <div>
                             <p>Prossima classe in partenza</p>
-                            <span>8 gennaio</span>
-                            <span>ULTIMI POSTI</span>
+                            <div class="tastino">
+                                <span>8 gennaio</span>
+                                <div class="pallino"></div>
+                                <span>ULTIMI POSTI</span>
+                            </div>  
                         </div>
-                        <div>
+                        <div class="tastino">
                             <span>SCOPRI</span>
+                            <div id="cerchio2"></div>
                         </div>
                     </div>
                 </div>    
             </div>
         </section>
-
+        <!-- sezione della card verticale -->
+        <section class="corsi">
+            <div class="cardVert" onmouseover="cerchio()" onmouseout="cerchioPiccolo()">
+                <div class="img">
+                    <span class="etichetta2">PART-TIME</span>
+                </div>
+                <h2>Web Development Essentials</h2>
+                <div class="icone">
+                    <span>6 MESI</span>
+                    <span>320 ORE</span>
+                    <span>IN DIRETTA</span>
+                </div>
+                <p>Il corso di coding strutturato appositamente
+                    per chi vuole imparare nel tempo libero.
+                </p>
+                <div class="scopri">
+                    <div>
+                        <p>Prossima classe in partenza</p>
+                        <div class="tastino">
+                            <span>8 gennaio</span>
+                            <div class="pallino"></div>
+                            <span>ULTIMI POSTI</span>
+                        </div>  
+                    </div>
+                    <div class="tastino">
+                        <span>SCOPRI</span>
+                        <div id="cerchio">-></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+  
 
         <script src="./script.js"></script>
     </body>

@@ -72,7 +72,9 @@ body {
 
 .corsi {
     padding-left: 40vh;
-    padding-right: 40vh; 
+    padding-right: 40vh;
+    margin-top: 50px;
+    margin-bottom: 50px; 
 }
 
 .cardOrizz {
@@ -89,7 +91,7 @@ body {
     cursor: pointer;
     transform: scale(1.1);
 }
-
+ 
 
 .imgSx {
     width: 45%;
@@ -141,4 +143,82 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: end;
+}
+
+.img {
+    width: 100%;
+    /* immagine di sfondo */
+    background-image: url("./img/webdev_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    border-radius: 25px;
+}
+
+.cardVert {
+    width: 50%;
+    border: 0.5px solid lightgray;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cardVert:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.etichetta2 {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+    left: 3%;
+    font-weight: bolder;
+}   
+
+#cerchio {
+    height: 25px;
+    width: 25px;
+    background-color: lightblue;
+    border-radius: 50%; /* arrotonda gli spigoli e diventa un cerchio */
+    margin-left: 10px;
+}
+
+.tastino {
+    display: flex;
+    align-items: center;
+}
+
+#cerchio2 {
+    height: 25px;
+    width: 25px;
+    background-color: lightblue;
+    border-radius: 50%; /* arrotonda gli spigoli e diventa un cerchio */
+    margin-left: 10px;
+}
+
+.pallino {
+    height: 10px;
+    width: 10px;
+    background-color: #f66659;
+    border-radius: 50%;
+    animation: pulsa 1s infinite alternate ease-in-out;
+    margin-left: 5.5px;
+    margin-right: 5.5px;
+}
+
+@keyframes pulsa {
+    0%{
+        transform: scale(1);
+    }
+    50%{ 
+        transform: scale(1.4);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
