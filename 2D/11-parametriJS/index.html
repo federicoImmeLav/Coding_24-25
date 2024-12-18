@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>Svolgi i seguenti esercizi con JS</h1>
+            <section class="cambiaColore">
+                <h2>Crea la funzione per far si che il seguente quadrato, 
+                quando viene cliccato, cambia colore</h2>
+                <div id="quadrato" onclick="quadratoColore('green')"></div>
+
+                <h2>Crea una funzione per far si che quando si clicca il 
+                    seguente cerhio, diventa un quadrato</h2>
+                <div id="cerchio"></div>
+            </section>
+
+            <section>
+                <h2>Fai in modo che nel paragrafo di destra compaiono
+                    le scritte presenti nei pulsanti
+                </h2>
+                <div class="contenitore">
+                    <div class="sx">
+                        <button onclick="cambia('Cane')">Cane</button>
+                        <button onclick="cambia('Gatto')">Gatto</button>
+                        <button onclick="cambia('Computer')">Computer</button>
+                        <button onclick="cambia('Gatto')">Ciao</button>
+                    </div>
+                    <div class="dx">
+                        <p id="testo">Testo che cambia</p>
+                    </div>
+                </div>    
+            </section>
+            <script src="./script.js"></script>
+    </body>
+</html>

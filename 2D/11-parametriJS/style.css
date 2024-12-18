@@ -1,0 +1,33 @@
+#quadrato {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#cerchio {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;  
+}
+
+.contenitore {
+    width: 100%;
+    height: 70vh;
+    border: 1px solid green;
+    display: flex;
+}
+
+.sx, .dx {
+    width: 50%;
+    border: 1px solid orange;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+}
+
