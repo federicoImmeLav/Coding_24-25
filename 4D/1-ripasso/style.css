@@ -1,0 +1,61 @@
+/* per chiamare le classi si usa il . */
+/* per chiamare gli id si usa il # */
+
+body {
+    margin: 0; /* tolgo il margine a tutto il sito */
+}
+
+.paragrafo {
+    color: red; /* cambiare il colore del testo */
+}
+
+.quadrato {
+    height: 100px; /* altezza */
+    width: 100px; /* larghezza */
+    background-color: blue; /* colore di sfondo */
+    border: 2px solid red; /* bordo, il primo è lo spessore, solid è il tipo
+                                e infine c'è il colore */
+    /* il padding è la distanza tra l'elemento e il suo bordo  */
+    /* il margine è la distanza tra gli elementi */
+    padding: 30px;
+    margin: 50px;
+}
+
+/* per chiamare un tag, non devo mettere niente davanti */
+nav {
+    background-color: cadetblue;
+    height: 10vh; /* vh sta per percentuale dello schermo */
+    display: flex; /* tipo di posizionamento */
+    justify-content: space-around;  /* posizionamento orizzontale */
+    align-items: center; /* posizionamento verticale */
+    /* fissiamo la nav in alto anche quando si scorre  */
+    position: sticky;
+    top: 0;
+}
+
+/* chiamo il pulsante */
+button {
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none; /* tolgo il bordo */
+}
+
+.primaSezione {
+    height: 70vh;
+    background-color: beige;
+    display: flex; /* posiziono le due sezioni una di fianco all'altra */
+}
+
+/* se metto la virgola vale per entrambe */
+.sx, .dx {
+    width: 50%; /* largo la metà della pagina */
+    padding: 30px;
+}
+
+/* imposto immagine come sfondo della sezione di destra */
+.dx {
+    background-image: url("./img/mare.avif");
+    background-repeat: no-repeat; /* non ripetere le immagini */
+    background-size: conver; /* tipo di riempimento */
+}

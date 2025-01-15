@@ -1,0 +1,33 @@
+header {  
+    background-color: cadetblue;
+    height: 100px; /* altezza */
+    display: flex;
+    justify-content: center; /* allineamento orizzontale */
+    align-items: center; /* allineamento verticale */
+}
+
+/* le classi si chiamano con il punto  */
+#introduzione {
+    height: 80vh; /* alto per l'80% dello schermo */
+    background-color: burlywood;
+    display: flex; /* posizionare le due metà una di fianco all'altra */
+}
+
+/* imposto le due scatole larghe la metà */
+.sx, .dx {
+    width: 50%; /* larghezza della metà */
+}
+
+.dx {
+    /* imposto una immagine come sfondo del div  */
+    background-image: url("./img/sesto.jpg");
+    background-repeat: no-repeat; /* non far ripetere le immagini */
+    background-size: cover; /* occupo lo spazio che ho a disposizione */
+}
+
+.quadrato {
+    height: 80px;
+    width: 80px;
+    background-color: crimson;
+    margin: 5px;
+}

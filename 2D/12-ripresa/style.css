@@ -1,0 +1,72 @@
+header {
+    background-color:lightblue;
+    /* posiziono quello che sta dentro a header in fila  */
+    display: flex;
+    height: 8vh; /* altezza in percentuale della pagina */
+    align-items: center; /* allineo al centro verticale */
+}
+
+/* chiamo tutti i div dentro a header  */
+header > div {
+    /* la larghezza è un terzo dello spazio  */
+    width: 33.3%;
+}
+
+.headDx {
+    /* sposto a desta quello che sta dentro al div  */
+   text-align: right;
+}
+
+/* imposto immagine del logo come sfondo del div centrale  */
+.headCentro {
+    background-image: url("./img/logo.png");
+    background-size:contain;
+    height: 100%; /* altezza uguale a quella del div */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* tolgo tutti i margini che non servono  */
+h1, h2, body {
+    margin: 0;
+}
+
+/* Personalizzo la sezione hero  */
+.hero {
+    background-color: CornflowerBlue;
+    height: 92vh; /* altezza in percentuale della pagina */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroTitoli {
+    text-align: center;
+}
+
+.secondaSez {
+    height: 50vh;
+    background-color:lightcyan ;
+}
+
+/* il padding è lo spazio tra l'elemento e il suo bordo  */
+/* il margin è lo spazio tra gli elementi  */
+
+.primo {
+    border: 1px solid black;
+    margin:10px;
+    background-color: red;
+}
+
+.secondo {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: red;
+}
+
+/* cambio colore quando passo sopra con il mouse  */
+.secondo:hover {
+    background-color: blue;
+    cursor: pointer;
+}

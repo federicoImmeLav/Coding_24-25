@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+.fasciaNera {
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid #ffc107;
+    text-align: center;
+    font-family:monospace; /* famiglia del font */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fasciaCentrale {
+  display: flex;
+  height: 8vh; /* altezza della fascia in percentuale */
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* con la virgola valgono per tutti e tre contemporaneamente */
+.loghiSx, .logoCentrale, .loghiDx {
+    width: 33.33%;
+}
+
+.logoCentrale{
+    background-image: url("./img/logo.svg");
+    background-size:70%; /* dimensione del logo */
+    background-repeat: no-repeat; /* non ripetere l'immagine */
+    background-position: center; /* posizione del logo */
+}
+
+.icona {
+    width: 20px;
+    margin-right: 5px;
+}
+
+/* centro gli elementi della fascia  */
+.loghiSx {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* allineo gli elementi a destra a destra  */
+.loghiDx {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.loghiSx > span {
+    display: flex;
+    align-items: center;
+}
+
+.fasciaMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.fasciaMenu > span {
+    font-family: monospace;
+    font-size: smaller;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom: 2px solid transparent;
+}
+
+.menu:hover {
+    border-bottom: 2px solid #ffc107;
+    cursor: pointer; 
+}
+
+.sanvalentino {
+    background-color: lightpink;
+    width: 100%;
+    height: 70vh;
+    display: none;
+}
+
+
+.hero {
+    background-image: url("./img/hero.webp");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.testi {
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}  
+
+nav {
+    position: sticky;
+    top: 0;
+   background-color: white;
+}
