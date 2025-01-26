@@ -1,0 +1,70 @@
+.fasciaNera {
+    background-color: black;
+    color: white; /* colore del testo */
+    height: 5vh; /* vh è la percentuale di altezza dello schermo */
+    display: flex;
+    justify-content: center; /* centro in orizzontale */
+    align-items: center; /* centro in verticale */
+    font-family: monospace; /* tipo di font del testo */
+    font-weight: bold; /* grassetto */
+}
+
+.fasciaCentrale {
+    display: flex;
+    justify-content: flex-end; /* allinea a destra */
+    align-items: center; /* centro in verticale */
+    height: 10vh;
+}
+
+/* seleziono tutti i bottoni dentro a fasciaCentrale  */
+.fasciaCentrale > button {
+    margin-left: 10px;
+    background-color: transparent; /* sfondo trasparente */
+    border: none; /* nessun bordo */
+}
+
+/* animazioni al passagio del mouse si fanno con :hover  */
+.fasciaCentrale > button:hover {
+    text-decoration: underline; /* sottolinea il testo */
+    cursor: pointer; /* cambia il cursore */    
+}
+
+.fasciaMenu {
+    display: flex;
+    height: 12vh;
+}
+
+/* la virgola significa che sto selezionando entrambi i div  */
+.menu, .ricerca {
+    width: 50%; /* metà della larghezza */
+}
+
+/* allineo tutto a destra la barra di ricerca */
+.ricerca {
+    display: flex;
+    justify-content: flex-end; /* centro in orizzontale */
+    align-items: center; /* centro in verticale */
+}
+
+.logo {
+    background-image: url("./img/logo.png");
+    width: 150px;
+    height: 80px;  
+    background-size: contain; /* adatta l'immagine alla dimensione del div */  
+    background-repeat: no-repeat; /* non ripete l'immagine */
+    background-position: bottom; /* posiziona l'immagine in basso */
+    border: none; /* nessun bordo */
+    background-color: transparent; /* sfondo trasparente */
+}
+
+.bottone {
+    margin-left: 10px;
+    background-color: transparent; /* sfondo trasparente */
+    border: none; /* nessun bordo */
+}
+
+/* animazioni al passagio del mouse si fanno con :hover  */
+.bottone:hover {
+    text-decoration: underline; /* sottolinea il testo */
+    cursor: pointer; /* cambia il cursore */    
+}
