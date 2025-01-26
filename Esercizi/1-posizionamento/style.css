@@ -1,0 +1,51 @@
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenitore {
+    height: 10vh;
+    border: 2px solid black;
+}
+
+button {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.elemento {
+    color: white;
+}
+
+#primo {
+    /* inserisci qui il codice per il primo elemento*/
+}
+
+#secondo {
+    /* inserisci qui il codice per il secondo elemento*/
+}
+
+#terzo {
+    /* inserisci qui il codice per il terzo elemento*/
+}
+
+#quarto {
+    /* inserisci qui il codice per il quarto elemento*/
+}
+
+#quinto {
+    /* inserisci qui il codice per il quinto elemento*/
+}
+
+#verde {
+    background-color: lightseagreen;
+
+}
+
+#blu {
+    background-color: lightskyblue;
+}
+
