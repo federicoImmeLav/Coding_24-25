@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <!-- titolo della pagina -->
+        <title>Interazioni</title> 
+        <!-- collegamento al file css -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- creo un quadrato rosso -->
+        <div class="quadrato"></div>
+
+        <!-- creo un altro quadrato  -->
+         <!-- metto un id perchè con js è meglio usare id -->
+        <div id="animazione" onclick="alternato()"></div>
+        <!-- nel div metto onclik seguito dal nome della funzione con le parentesi -->
+        
+        <!-- creo un bottone -->
+        <button id="cliccami" onclick="apriMenu()">Cliccami</button>
+        <!-- creo il div che sarà il menu del mio sito  -->
+         <div id="menu">
+            <!-- metto una lista per il menu  -->
+            <ul>
+                <li>Home</li>
+                <li>Chi siamo</li>
+                <li>Contatti</li>
+            </ul>
+         </div>
+        
+        <!-- collegamento al file js  -->
+        <script src="./script.js"></script>
+    </body>
+</html>

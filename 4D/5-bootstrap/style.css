@@ -1,0 +1,16 @@
+.sfondo {
+    background-color: lightcoral;
+    border: 1px solid red;
+}
+
+.home {
+    background-image: url(./img/variant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}   

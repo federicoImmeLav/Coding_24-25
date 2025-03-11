@@ -1,0 +1,47 @@
+.container {
+    widht: 80%;
+    margin: auto;
+}
+
+.card {
+    disply: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+img {
+    widht: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.color-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    colr: white;
+}
+
+.red {
+    backgroun-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blu {
+    background-colr: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}

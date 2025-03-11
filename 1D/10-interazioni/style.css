@@ -1,0 +1,36 @@
+ /* per chiamare una classe uso il punto  */
+
+ .quadrato {
+    width: 100px; /* larghezza */
+    height: 100px; /* altezza */
+    background-color: red; /* colore di sfondo */
+ }
+
+ /* animazione quando passo con il mouse sopra */
+ .quadrato:hover {
+    background-color: blue;
+ }
+
+ /* gli id si chiamano con gli hashtag */
+ #animazione {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-top: 30px; /* margine superiore */
+ }
+
+ #cliccami {
+    position: absolute;
+    top: 10%; /* distanza dal top */
+    right: 10%; /* distanza da destra */
+ }
+
+ #menu {
+    background-color: chocolate;
+    width: 30%; /* larghezza */
+    height: 100%; /* alto come la pagina */
+    position: absolute;
+    top: 0;
+    left: -30%; /* nascosto */
+ }
+ 

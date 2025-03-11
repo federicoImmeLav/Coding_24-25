@@ -1,0 +1,13 @@
+.fasciaBianca {
+    display: flex;
+    justify-content: space-around; /* distribuisci in modo uniforme */
+}
+
+/* selezioni tutti gli span che stanno dentro al gruppoSx  */
+.gruppoSx span {
+    margin-right: 20px; /* margine a destra di 20px */
+}
+
+.kfc {
+    width: 100px;
+}

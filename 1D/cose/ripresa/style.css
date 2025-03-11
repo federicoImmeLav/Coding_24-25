@@ -1,0 +1,15 @@
+/* le classi si chiamano con il punto */
+.sfondo {
+    background-color: red; /* colore di sfondo */
+}
+
+.contenitore {
+    width: 70%; /* larghezza */
+    height: 50%; /* altezza */
+    border: 2px solid black; /* bordo */    
+    /* imposto il contenitore affinchè abbia il suo 
+    contenuto tutto in mezzo */
+    display: flex;
+    justify-content: center; /* allineo orizzontalmente */
+    align-items: center; /* allineo verticalmente */
+}
