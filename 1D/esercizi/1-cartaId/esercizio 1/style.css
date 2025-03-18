@@ -1,0 +1,23 @@
+body {
+    /* inserisci un colore di sfondo */
+    /* background-color:; */
+    font-family:  sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .carta {
+    /* inserisci un colore di sfondo  */
+    /* background-color: ; */
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 50%;
+   
+  }
+ 

@@ -1,0 +1,61 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  padding: 10px 20px;
+}
+header .logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+header button {
+  margin: 0 5px;
+  padding: 8px 12px;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.hero h1 {
+  font-size: 40px;
+}
+
+.riquadri {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  background-color: #e6e6e6;
+  padding: 10px;
+}
+.box {
+  width: 30%;
+  height: 20%;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid #333;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}

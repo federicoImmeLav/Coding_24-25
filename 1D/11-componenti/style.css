@@ -1,0 +1,84 @@
+/* la classe head vale per tutti gli header che faccimamo, mentre */
+/* usiamo ID specifico per le caratteristiche di ciascun header diverso  */
+
+.head {
+    height: 8%; /* altezza */
+    display: flex;
+    align-items: center; /* centro in verticale gli elementi */
+}
+
+/* Css di headerSemplice */
+#headerSemplice {
+    background-color: coral; /* colore di sfondo */
+    justify-content: space-between;
+    padding-left: 10px; /* spazio a sinistra */
+    padding-right: 10px; /* spazio a destra */
+}
+
+/* Css di headerMultiplo  */
+#headerMultiplo {
+    background-color: cornflowerblue;
+    justify-content: space-between;
+    padding-left: 10px; /* spazio a sinistra */
+    padding-right: 10px; /* spazio a destra */
+}
+
+/* Css di headerImg */
+#headerImg {
+    background-color: lightblue;
+    padding-left: 10px;
+}
+
+.immagineHead {
+    /* usando altezza in percentuale, ci riferiamo */
+    /* all'altezza del header   */
+    height: 70%;
+}
+
+
+/* Css della sezione hero  */
+#hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column; /* allinea i titoli in colonna */
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+/* Css della sezione divisa  */
+#sezioneDivisa {
+    height: 80vh;
+    display: flex;
+}
+
+.diviso {
+    width: 50%;
+     /* a seconda della larghezza degli elementi, la pagina si divide
+    in piu o meno colonne */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Css della sezione a riquadri */
+#sezioneRiquadri {
+    height: 100%;
+    background-color: lightslategray;
+    display: flex;
+    flex-wrap: wrap; /* se non ci stanno, vai a capo */
+}
+
+.riquadro {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 100px;
+    margin: 30px;
+    width: 32%;
+}
+
+
