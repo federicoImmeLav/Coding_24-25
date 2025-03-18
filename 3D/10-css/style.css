@@ -1,0 +1,50 @@
+.contenitore {
+    width: 100%; /* larghezza */
+    height: 20%; /* altezza */
+    border: 1px solid gray;
+}
+
+/* per mettere un elemento al centro devo dirlo al suo contenitore  */
+.centro {
+    display: flex;
+    justify-content: center; /* allineamento orizzontale */
+    align-items: center; /* allineamento verticale */
+}
+
+.multipli {
+    display: flex;
+    justify-content: space-around; /* allineamento orizzontale */
+    align-items: center; /* allineamento verticale */
+}
+
+/* per disporre gli elementi divisi in gruppi a destra e sinistra
+devo fare dei gruppi nel html */
+.sottogruppi {
+    display: flex;
+    justify-content: space-evenly; /* allineamento orizzontale */
+    align-items: center; /* allineamento verticale */
+}
+
+
+.esempioMargin {
+    background-color: white;
+    border: 1px solid black; /* bordo */
+    margin: 20px; /* margine, distanza tra bordo e cose esterne */
+    /* padding: 30px;  spazio tra il bordo e il contenuto */
+    /* se metto solo padding vale nelle quattro direzioni */
+    /* se invece metto top, bottom, right e left speifico doove
+    voglio il padding */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 5px;
+}
+
+/* per fare cambiamento quando vado sopra con il mouse si
+usa :hover  */
+.esempioMargin:hover {
+    /* quello che scrivo nelle parentesi succede solo quando
+    passo sopra con il mouse */
+    background-color: forestgreen;
+    cursor: pointer; /*puntatore*/
+}
