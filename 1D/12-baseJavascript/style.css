@@ -1,0 +1,26 @@
+header {
+    background-color: cadetblue;
+    height: 8vh; /* altezza, vh è altezza in base alla schermata */
+    display: flex;
+    justify-content: center; /* alliena in orizzontale */
+    align-items: center; /* allinea in verticale */
+}
+
+ul {
+    /* tolgo il puntino alla lista  */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#menu {
+    background-color: cadetblue;
+    /* nascondo il menu in partenza  */
+    display: none;
+}

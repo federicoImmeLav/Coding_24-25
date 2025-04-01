@@ -1,0 +1,28 @@
+/* io posso cambiare il tipo di font  */
+.primo {
+    font-family: sans-serif;
+}
+
+.secondo {
+    font-family: serif;
+}
+
+.terzo {
+    font-family: monospace;
+}
+
+/* posso anche importare il font che voglio io nel sito e usarlo  */
+.boldonse {
+    /* incollo il codice css preso da google font  */
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.byte {
+    font-family: "Bytesized", sans-serif;
+}
