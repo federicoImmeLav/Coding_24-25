@@ -23,6 +23,28 @@
             </ul>
         </div>
 
+        <div class="prova">
+            <button onclick="prova()">Clicca</button>
+            <p id="risultato"></p>
+        </div>
+
+        <!-- voglio poter inserire io i dati nel sito  -->
+        <div class="inserimento">
+            <!-- il campo di input è dove posso scrivere  -->
+            <input type="text" id="nome" placeholder="Nome">
+            <input type="text" id="cognome" placeholder="Cognome">
+            <button onclick="nomeCognome()">unisci</button>
+            <p id="risultato2"></p>
+        </div>
+
+        <!-- div per poter interagie con dei numeri tipo calcolatrice -->
+        <div class="calcoli">
+            <input type="number" id="numero1">
+            <input type="number" id="numero2">
+            <button onclick="somma()">somma</button>
+            <p id="somma"></p>
+        </div>
+
         <!-- collegamento allo script  -->
          <script src="./script.js"></script>
     </body>

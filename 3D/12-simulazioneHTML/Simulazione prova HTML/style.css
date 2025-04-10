@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    /* allineo in orizzontale */
+    justify-content: space-between; 
+    /* allineo in verticale */
+    align-items: center;
+    height: 8vh;
+}
+
+/* personalizzo i bottoni  */
+button {
+    /* tolgo il bordo e lo sfondo  */
+    background-color: transparent;
+    border: none;
+}
+
+/* metto immagine come sfondo  */
+.hero {
+    background-image: url("./img/img3.png");
+    /* per far si che l'immagine si veda devo impostare
+    una altezza alla sezione */
+    height: 92vh;
+    /* devo anche impostare che l'immagine occupi */
+    /* tutto lo spazio senza ripetersi */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* metto la scritta in centro  */
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center; /* testo in centro */
+}
+
+.servizi {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.immagineTesto {
+    display: flex;
+    padding: 50px;
+}
+
+/* imposto l'immagine di sfondo del div e le dimensioni in modo tale  */
+/* che occupi un poco più di metà schermo (60%)   */
+.sx {
+    background-image: url("./img/img1.png");
+    width: 60%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dx {
+    width: 40%;
+}
