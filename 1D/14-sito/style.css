@@ -1,0 +1,68 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.neutro{
+    background-color: transparent;
+    border: none;
+}
+
+.azzurro{
+    background-color: transparent;
+    border: none;
+    color: blue;
+}
+
+.pieno{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.img-sx{
+    background-image: url("./img/ottimizzare-immagini-display-retina.jpg");
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 30px;
+}
+
+.prima-riga{
+    display: flex;
+    height: 45vh;
+    justify-content: center;  
+}
+
+.seconda-riga{
+     display: flex;
+    height: 45vh;
+    justify-content: center;  
+}
+
+
+.sinistra{
+    background-image: url("./img/immagini-sfondo-1.jpg");
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.destra{
+    background-image: url("./img/immagini-sfondo-1.jpg");
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+
+.descrizione{
+    padding: 40px;
+}

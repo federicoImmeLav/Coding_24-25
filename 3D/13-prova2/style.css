@@ -1,0 +1,49 @@
+/* 
+Per fare un header: 
+- header con dentro i div che lo dividono nelle varie sezioni
+- display flex al contenitore per distribuirli in orizzontale
+- button personalizzati per gli elementi del menu
+*/
+
+header {
+    display: flex;
+    /* per distribuire in orizzontale */
+    justify-content: space-between;
+    /* metto un bordo solo sotto  */
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px; /* distanza tra elemento e suo bordo */
+}
+
+.neutro {
+    background-color: transparent;
+    border: none;
+}
+
+.azzurro {
+    background-color: transparent;
+    border: none;
+    color: blue; /* colore del testo */
+}
+
+.sfondo {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 5px; /* bordi stondati */
+}
+
+.prima-riga {
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+.seconda-riga {
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+img {
+    border-radius: 50px;
+}

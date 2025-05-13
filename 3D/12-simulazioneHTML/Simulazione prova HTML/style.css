@@ -69,4 +69,47 @@ h2 {
 
 .dx {
     width: 40%;
+    background-color: blue;
+    color: white; /* colore dei testi */
+    padding: 40px; /* spazio interno */
+    display: flex;
+    flex-direction: column; /* dispongo le cose in colonna */
+    justify-content: space-around;
 }
+
+/* personalizzare il pulsante */
+.pulsante {
+    background-color: white;
+    color: blue;
+    padding: 20px;
+}
+
+.riga {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+}
+
+.servizio {
+    border: 1px solid blue;
+    width: 15%;
+    height: 20vh;
+}
+
+.blu {
+    background-color: blue;
+}
+
+.riquadriTesto {
+    display: flex;
+    padding: 50px;
+}
+
+.sinistra {
+    width: 60%;
+}
+
+.destra {
+    width: 40%;
+}
+

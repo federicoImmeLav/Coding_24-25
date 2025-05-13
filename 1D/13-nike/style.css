@@ -1,0 +1,74 @@
+/* per mettere i due div uno di fianco all'altro devo fare flex  */
+.prima-fascia {
+    background-color: lightgray; /* Colore di sfondo */ 
+    display: flex; /* Allineo */
+    justify-content: space-between; /* Uno a destra e uno a sinistra */
+    align-items: center; /* Centro in verticale */
+    height: 4vh; /* Altezza */
+    /* un poco di spazio a destra e a sinistra  */
+    padding-left: 3vw;
+    padding-right: 3vw;
+    /* vw è in percentuale la larghezza della pagina  */
+}
+
+.seconda-fascia {
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+
+/* inserisco l'immagine di sfondo della prima sezione  */
+.hero {
+    background-image: url("./img/image.jpg");
+    /* adatto l'immagine alla sezione  */
+    background-size: contain;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+
+/* personalizzo il pulsante */
+button {
+    background-color: white;
+    color: black;
+    padding: 15px 30px; /* sopra e sotto è 15, dx e sx è 30 */
+    border-radius: 100vh;
+}
+
+h2 {
+    color: white;
+}
+
+.divisa {
+    display: flex;
+}
+
+.immagine {
+    width: 50%;
+    margin: 2vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    /* adatto l'immagine alla sezione  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.img-sx {
+    background-image: url("./img/1.webp");
+}
+.img-dx {
+    background-image: url("./img/2.jpg");
+}
+
