@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.sezione-divisa {
+    display: flex;
+}
+
+.sinistra, .destra {
+    width: 50%;
+}
