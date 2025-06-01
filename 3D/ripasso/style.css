@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    height: 8vh;
+}
+
+.icone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.riga, span {
+    padding: 20px;
+}
+
+.testoSinistra {
+    background-color: cadetblue;
+}
+
+.divisaQuattro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.elemento {
+    
+    background-color: blueviolet;
+    width: 10%;
+    height: 30%;
+    padding: 50px;
+}
+
+.immagini {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mare {
+    width: 30%;
+}
+
+.img2 {
+    background-image: url("./img/aa.jpg");
+    height: 40vh;
+    width: 40%;
+    background-size: cover;
+}
+
+.fascia {
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+h3 {
+    margin: 0;
+}
+.ciao {
+    background-color: lightsalmon;
+    height: 50vh;
+}
